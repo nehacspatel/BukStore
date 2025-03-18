@@ -1,0 +1,115 @@
+/* Center the modal */
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Show the modal when it's active */
+.modal[open] {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Modal box styling */
+.modal_box {
+    background: white;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+/* Close button */
+.bt {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+/* Modal heading */
+.log {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Input field styling */
+.d1 {
+    margin-top: 10px;
+}
+
+.d1 span {
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.design {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    margin-top: -20rem;
+    
+}
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+  }
+  
+/* Login button & sign-up link */
+.d2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.d3 {
+    background-color: #d42a7f; /* Pink */
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.d3:hover {
+    background-color: #e86a9f; /* Darker pink */
+}
+
+.d4 {
+    color: #3b82f6; /* Blue */
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.d4:hover {
+    color: #1e40af; /* Darker blue */
+}

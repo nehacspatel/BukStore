@@ -1,0 +1,195 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+/* Light Mode */
+body {
+  background-color: white;
+  color: black;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  background: white;
+  padding: 15px 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode .navbar {
+  background: #111;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Logo */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 15px; /* Adjusted spacing between logo & search bar */
+}
+
+.dark-mode .logo {
+  color: white;
+}
+
+
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-grow: 10;
+  max-width: 200px; /* Slightly smaller search bar */
+ left: 450px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px 14px;
+  padding-left: 20px; /* Space for icon */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
+  
+}
+
+.dark-mode .search-bar input {
+  background: #333;
+  color: white;
+  border-color: #555;
+}
+
+/* Search Icon */
+.search-icon {
+  position: fixedS;
+  font-size: 16px;
+  color: #777;
+
+}
+
+.dark-mode .search-icon {
+  color: #bbb;
+}
+
+/* Navigation Container */
+.nav-container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+/* Navigation Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 5px ;/* Reduced spacing */
+  align-items: center;
+  right: 100px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #333;
+  padding:4px 8px; /* Smaller padding */
+  border-radius: 5px;
+  position: relative;
+  transition: color 0.3s ease, transform 0.2s ease;
+  left: 500px;
+}
+
+/* New Hover Effect - Lift Up */
+.nav-links a:hover {
+  color: #ff00a2;
+  transform: translateY(-3px);
+}
+
+.dark-mode .nav-links a {
+  color: white;
+}
+
+.dark-mode .nav-links a:hover {
+  color: #ffcc00;
+  transform: translateY(-3px);
+}
+.login-btn {
+  background-color: hsl(312, 83%, 2%);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+margin-left: 390px;
+}
+
+.login-btn:hover {
+  background-color: #ff46b5;
+}
+/* Dark Mode Toggle */
+.mode-toggle {
+  width: 50px;
+  height: 25px;
+  background: #ddd;
+  border-radius: 50px;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2px;
+  margin: 10px;
+  right: 70px;
+}
+/* Toggle Circle */
+.toggle-circle {
+  width: 22px;
+  height: 22px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  left: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Move toggle for dark mode */
+.toggle-circle.dark {
+  left: calc(100% - 25px);
+  background: black;
+  color: white;
+}
+
+/* Dark Mode Toggle Button Background */
+.dark-mode .mode-toggle {
+  background: #444;
+}

@@ -1,0 +1,122 @@
+[
+    {
+        "id":1,
+        "name":"Story Book",
+        "title":"you are worth it",
+        "price":0,
+        "category":"Free",
+        "image": "Banner.jpg"
+
+
+
+    },
+    {
+        "id":2,
+        "name":"Music Book",
+        "title":"you are worth it",
+        "price":30,
+        "category":"Music",
+        "image": "Banner.jpg"
+
+
+
+    },
+    {
+        "id":3,
+        "name":"Food Book",
+        "title":"you are worth it",
+        "price":50,
+        "category":"Food",
+        "image": "Banner.jpg"
+
+
+
+    },
+    {
+        "id":4,
+        "name":"Life Book",
+        "title":"you are worth it",
+        "price":100,
+        "category":"Motivational",
+        "image": "Banner.jpg"
+
+
+
+    },
+    {
+        "id":5,
+        "name":"Chat Book",
+        "title":"you are worth it",
+        "price":0,
+        "category":"Free",
+        "image": "Banner.jpg"
+
+
+
+    },
+    {
+        "id":6,
+        "name":"Money Book",
+        "title":"you are worth it",
+        "price":0,
+        "category":"Free",
+        "image": "Banner.jpg"
+
+
+
+    },
+    {
+        "id":7,
+        "name":"life Book",
+        "title":"you are worth it",
+        "price":0,
+        "category":"Free",
+        "image": "Banner.jpg"
+
+
+
+    },
+    {
+        "id":8,
+        "name":"Comedy Book",
+        "title":"you are worth it",
+        "price":40,
+        "category":"paid",
+        "image": "Banner.jpg"
+
+
+
+    },
+    {
+        "id":9,
+        "name":"e-commerce Book",
+        "title":"you are worth it",
+        "price":0,
+        "category":"Free",
+        "image": "Banner.jpg"
+
+
+
+    },
+    {
+        "id":10,
+        "name":"Romantic Book",
+        "title":"you are worth it",
+        "price":30,
+        "category":"Romantic",
+        "image": "Banner.jpg"
+
+
+
+    },{
+        "id":11,
+        "name":"TedTalk Book",
+        "title":"you are worth it",
+        "price":50,
+        "category":"Free",
+        "image": "Banner.jpg"
+
+
+
+    }
+]

@@ -1,0 +1,29 @@
+/* Freebook Container */
+.freebook-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Freebook Header */
+  .freebook-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .freebook-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .freebook-header p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Slider */
+  .slider-container {
+    margin-top: 20px;
+  }
+  
